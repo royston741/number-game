@@ -1,0 +1,17 @@
+.btn {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 13px;
+  width: 200px;
+  border: none;
+  background: rgb(220, 20, 60);
+  background: linear-gradient(
+    40deg,
+    rgba(220, 20, 60, 1) 4%,
+    rgba(226, 94, 54, 1) 90%
+  );
+  color: white;
+  cursor: pointer;
+}

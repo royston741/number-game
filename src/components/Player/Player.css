@@ -1,0 +1,26 @@
+.player .player-score{
+    background-color:unset;
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.player-btn{
+    background: rgb(220, 20, 60);
+    background: linear-gradient(
+      40deg,
+      rgba(220, 20, 60, 1) 4%,
+      rgba(226, 94, 54, 1) 90%
+    );
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.player .player-btn:disabled{
+  background: unset;
+  background-color: grey;
+}

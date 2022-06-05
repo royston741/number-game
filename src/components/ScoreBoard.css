@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-margin{
+    margin-bottom: 40px;
+}
+
+.rule{
+    margin-bottom: 10px;
+}
+
+.player>div{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 5px 0;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.18);
+}
+
+@media screen and (max-width:500px){
+    .player div{
+        font-size: 1.5rem;
+    }
+}
